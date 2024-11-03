@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(92, 172, 241);
+}
+
+.container {
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: white;
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    font-size: 1.4rem;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+button {
+    font-size: 1.4rem;
+    border: none;
+    margin-left: 10px;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    transition: background-color 0.8s ease;
+}
+
+.text {
+    flex: 1;
+    /* text-align: start; */
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    background-color: gray;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+}
+
+.add-button {
+    background-color: hsla(120, 100%, 25%, 0.5);
+    font-size: 1.8rem;
+}
+
+.add-button:hover {
+    background-color: hsla(120, 100%, 15%, 0.5);
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: hsl(0, 100%, 50%);
+}
+
+.delete-button:hover {
+    background-color: hsl(0, 100%, 40%);
+    cursor: pointer;
+}
+
+.move-button {
+    background-color: hsl(180, 100%, 50%);
+}
+
+.move-button:hover {
+    background-color: hsl(180, 100%, 30%);
+    cursor: pointer;
+}
